@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>medium</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .wrapper {
+        background: #ffffff;
+        font-size: 1.5em;
+        box-shadow: 4px 4px 5px 4px #888888;
+      }
+
+      .medium {
+        display: flex;
+        margin-top: 0px;
+        padding: 4px;
+        margin: auto;
+        width: 80%;
+        color: #ffffff;
+        background: white;
+      }
+
+      li {
+        list-style-type: none;
+        cursor: pointer;
+        padding: 40px;
+      }
+      .shift {
+        margin-left: auto;
+        height: 3vh;
+      }
+      li i {
+        color: black;
+      }
+      .medium li:not(:last-child):not(.upg) {
+        margin-right: ;
+      }
+      .upg {
+        color: black;
+        border-radius: 10px;
+        padding: 10px;
+        border: 1px solid black;
+        margin-bottom: 50px;
+        cursor: pointer;
+      }
+      .medicon {
+        font-size: 60px;
+        color: black;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <ul class="medium">
+        <li class="medicon"><i class="fab fa-medium"></i></li>
+        <li class="shift"><i class="fas fa-search"></i></li>
+        <li><i class="fas fa-bell"></i></li>
+        <li class="upgr"><button class="upg default">Upgrade</button></li>
+      </ul>
+    </div>
+  </body>
+</html>

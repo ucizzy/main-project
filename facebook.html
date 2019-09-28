@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Facebook nav</title>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      .wrapper {
+        background: #4267b2;
+      }
+      .facebook {
+        display: flex;
+        align-items: baseline;
+        color: #fff;
+        margin-top: 0px;
+        padding: 5px;
+        width: 80%;
+        margin: auto;
+      }
+      .facebook li:not(:last-child):not(.form) {
+        margin-right: 16px;
+      }
+      .form {
+        margin-right: auto;
+        height: 3vh;
+      }
+      li {
+        list-style-type: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+      .fa-search {
+        background: gray;
+        padding: 3px;
+        position: relative;
+        top: 2px;
+      }
+      .facebook li:not(.no-hover):hover {
+        background: #385898;
+      }
+      li i {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <ul class="facebook">
+        <li><i class="fab fa-facebook-square"></i></li>
+        <li class="form no-hover">
+          <form>
+            <input placeholder="search facebook" /><i class="fa fa-search"></i>
+          </form>
+        </li>
+        <li><i class="fas fa-user"></i> User</li>
+        <li>Home</li>
+        <li class="no-hover">Create</li>
+        <li class="no-hover" title="Your Friends">
+          <i class="fas fa-users"></i>
+        </li>
+        <li class="no-hover"><i class="far fa-comment-dots"></i></li>
+        <li class="no-hover">
+          <a href="twitter.html"><i class="fa fa-bell"></i> </a>
+        </li>
+        <li class="no-hover"><i class="far fa-caret-square-down"></i></li>
+      </ul>
+    </div>
+  </body>
+</html>

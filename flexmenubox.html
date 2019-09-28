@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flexmenu</title>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin:0;
+
+        }
+        body{
+            background:#eee;
+        }
+        .wrapper{
+            width:100%;
+            max-width: 960px;
+            
+        }
+        nav{
+            background: black;
+            
+        }
+       nav  ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        nav a{
+            text-decoration: none;
+             padding:5px;
+            color:#ffffff;
+           
+            
+        }
+        nav a:hover{
+            background-color: red;
+        }
+        @media screen and (min-width: 768px){
+            nav ul{
+               display: flex;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+             <li><a href="">Home</li>
+             <li><a href="">About</li>
+            <li><a href="">Store</li>
+            <li><a href="">Contact</li>
+            </ul>
+        </nav>
+    </div>
+    
+</body>
+</html>
